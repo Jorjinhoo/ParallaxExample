@@ -1,0 +1,53 @@
+:root{
+	--index: calc(1vw + 1vh);
+
+}
+
+
+.menu__bar{
+	position: absolute;
+	width: 100%;
+	padding: 25px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10;
+
+}
+
+.logo{
+	font-weight: 950;
+	font-size: calc(var(--index) * 1.6);
+	color: #FFFFFF;
+
+}
+
+.menu__buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.menu__buttons li{
+	list-style: none;
+	margin-left: 20px;
+	color: black;
+
+}
+
+.menu__buttons li a{
+	padding: 8px 19px;
+	border-radius: 20px;
+	font-size: calc(var(--index) * 1.1);
+	color: #FFFFFFFF;
+	background-color: rgba(128, 128, 128, 0.25);
+
+}
+
+.menu__buttons li a:hover{
+	transition: 0.3s;
+	background: rgba(128, 128, 128, 0.75);
+	color: white;
+	
+}
